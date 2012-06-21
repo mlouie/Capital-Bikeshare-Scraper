@@ -44,7 +44,7 @@ print "Downloading data for account number %s..." % acct_num
 output = "Trip Number | Start Station | Start Date | End Station | End Date | Duration | Cost | Distance (miles) | Calories Burned | CO2 Offset (lbs.)\n"
 
 # fetch main Rental History page
-response1 = br.open("https://www.capitalbikeshare.com/user/view_rentals/")
+response1 = br.open("https://www.capitalbikeshare.com/member/rentals/")
 
 while True:
 
